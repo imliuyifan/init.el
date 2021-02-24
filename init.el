@@ -15,7 +15,7 @@
 (setq use-package-always-ensure t)
 
 ;; pick your fav theme here
-(use-package gruvbox-theme)
+;; (use-package gruvbox-theme)
 (use-package solarized-theme)
 
 (use-package elpy
