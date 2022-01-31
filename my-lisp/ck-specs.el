@@ -1,5 +1,5 @@
 ;; Yifan's ctrl-k keybinding specs 
-;;------------------------- C-k command for ipython -------------------------
+;;------------------------- C-k command for eshell -------------------------
 ;; This function allows C-k to clear eshell buffer
 (defun eshell/clear ()
   "To clear the eshell buffer."
@@ -15,7 +15,7 @@
 (add-hook 'eshell-mode-hook
       '(lambda() (local-set-key (kbd "C-k") 'eshell-clear-buffer)))
 
-;;------------------------- C-k command for eshell -------------------------
+;;------------------------- C-k command for ipython -------------------------
 ;; This function sllows C-k to clear ipython buffer
 (defun clear-ipython-buffer ()
   "Clear the ipython buffer."
